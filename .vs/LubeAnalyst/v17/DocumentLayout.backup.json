@@ -1,0 +1,248 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\lubeanalyst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\lubeanalyst\\controllers\\userregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|solutionrelative:controllers\\userregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C918D49-E55E-49E8-8027-E8605B62CFC7}|..\\ProcessLabTestFunction\\ProcessLabTestFunction.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\processlabtestfunction\\sendemailfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\lubeanalyst\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C918D49-E55E-49E8-8027-E8605B62CFC7}|..\\ProcessLabTestFunction\\ProcessLabTestFunction.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\processlabtestfunction\\oraclesyncjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\lubeanalyst\\controllers\\addusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|solutionrelative:controllers\\addusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\lubeanalyst\\controllers\\getuserlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|solutionrelative:controllers\\getuserlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C918D49-E55E-49E8-8027-E8605B62CFC7}|..\\ProcessLabTestFunction\\ProcessLabTestFunction.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\processlabtestfunction\\getuserlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\lubeanalyst\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\lubeanalyst\\controllers\\testfunctionlevelauthorizationusingapim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|solutionrelative:controllers\\testfunctionlevelauthorizationusingapim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\lubeanalyst\\repository\\customercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|solutionrelative:repository\\customercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\lubeanalyst\\repository\\icustomercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6318C1C2-2BC5-4D20-8774-20E7FC6281E5}|LubeAnalyst.csproj|solutionrelative:repository\\icustomercommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C918D49-E55E-49E8-8027-E8605B62CFC7}|..\\ProcessLabTestFunction\\ProcessLabTestFunction.csproj|e:\\all works\\documents\\important questions before interiew\\lubricantanalyst\\processlabtestfunction\\data\\labdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-14T05:22:33.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAawDsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T05:11:17.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRegistrationController.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Controllers\\UserRegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserRegistrationController.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Controllers\\UserRegistrationController.cs",
+              "RelativeToolTip": "Controllers\\UserRegistrationController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:46:03.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SendEmailFunction.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\ProcessLabTestFunction\\SendEmailFunction.cs",
+              "RelativeDocumentMoniker": "..\\ProcessLabTestFunction\\SendEmailFunction.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\ProcessLabTestFunction\\SendEmailFunction.cs",
+              "RelativeToolTip": "..\\ProcessLabTestFunction\\SendEmailFunction.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:22:26.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OracleSyncJob.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\ProcessLabTestFunction\\OracleSyncJob.cs",
+              "RelativeDocumentMoniker": "..\\ProcessLabTestFunction\\OracleSyncJob.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\ProcessLabTestFunction\\OracleSyncJob.cs",
+              "RelativeToolTip": "..\\ProcessLabTestFunction\\OracleSyncJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T05:25:35.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetUserListController.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Controllers\\GetUserListController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GetUserListController.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Controllers\\GetUserListController.cs",
+              "RelativeToolTip": "Controllers\\GetUserListController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T04:53:58.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T16:25:38.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddUserController.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Controllers\\AddUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AddUserController.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Controllers\\AddUserController.cs",
+              "RelativeToolTip": "Controllers\\AddUserController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T04:51:49.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T14:52:04.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetUserList.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\ProcessLabTestFunction\\GetUserList.cs",
+              "RelativeDocumentMoniker": "..\\ProcessLabTestFunction\\GetUserList.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\ProcessLabTestFunction\\GetUserList.cs",
+              "RelativeToolTip": "..\\ProcessLabTestFunction\\GetUserList.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T04:04:08.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TestFunctionLevelAuthorizationUsingApim.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Controllers\\TestFunctionLevelAuthorizationUsingApim.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestFunctionLevelAuthorizationUsingApim.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Controllers\\TestFunctionLevelAuthorizationUsingApim.cs",
+              "RelativeToolTip": "Controllers\\TestFunctionLevelAuthorizationUsingApim.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAawDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T04:24:09.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerCommandRepository.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Repository\\CustomerCommandRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CustomerCommandRepository.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Repository\\CustomerCommandRepository.cs",
+              "RelativeToolTip": "Repository\\CustomerCommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T03:13:50.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICustomerCommandRepository.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Repository\\ICustomerCommandRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ICustomerCommandRepository.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\LubeAnalyst\\Repository\\ICustomerCommandRepository.cs",
+              "RelativeToolTip": "Repository\\ICustomerCommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T04:55:15.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LabDbContext.cs",
+              "DocumentMoniker": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\ProcessLabTestFunction\\Data\\LabDbContext.cs",
+              "RelativeDocumentMoniker": "..\\ProcessLabTestFunction\\Data\\LabDbContext.cs",
+              "ToolTip": "E:\\All works\\Documents\\Important questions before interiew\\LubricantAnalyst\\ProcessLabTestFunction\\Data\\LabDbContext.cs",
+              "RelativeToolTip": "..\\ProcessLabTestFunction\\Data\\LabDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T04:16:21.214Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

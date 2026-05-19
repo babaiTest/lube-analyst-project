@@ -1,0 +1,6 @@
+@LubeAnalyst_HostAddress = http://localhost:5062
+
+GET {{LubeAnalyst_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
