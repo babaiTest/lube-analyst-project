@@ -9,31 +9,40 @@ variables:
 
 steps:
 
+# Install .NET SDK
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
     version: '8.x'
 
-- script: dotnet restore LubeAnalyst.csproj
+# Restore API
+- task: DotNetCoreCLI@2
   displayName: 'Restore API'
+  inputs:
+    command: 'restore'
+    projects: 'LubeAnalyst.csproj'
 
-- script: dotnet build LubeAnalyst.csproj --configuration $(buildConfiguration)
+# Build API
+- task: DotNetCoreCLI@2
   displayName: 'Build API'
+  inputs:
+    command: 'build'
+    projects: 'LubeAnalyst.csproj'
+    arguments: '--configuration $(buildConfiguration)'
 
-- script: dotnet publish LubeAnalyst/LubeAnalyst.csproj -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)/api
+# Publish API
+- task: DotNetCoreCLI@2
   displayName: 'Publish API'
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: 'LubeAnalyst.csproj'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/api'
 
-- script: dotnet publish ProcessLabTestFunction/ProcessLabTestFunction.csproj -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)/func
-  displayName: 'Publish Function'
-
+# Deploy to Azure App Service
 - task: AzureWebApp@1
+  displayName: 'Deploy API'
   inputs:
     azureSubscription: 'azure-connection'
-    appName: 'lube-analyst-api'
+    appName: 'lube-analyst-api'   # Must match your App Service name
     package: '$(Build.ArtifactStagingDirectory)/api'
-
-- task: AzureFunctionApp@1
-  inputs:
-    azureSubscription: 'azure-connection'
-    appName: 'processlabtest-func'
-    package: '$(Build.ArtifactStagingDirectory)/func'
