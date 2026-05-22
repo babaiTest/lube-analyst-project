@@ -14,10 +14,10 @@ steps:
     packageType: 'sdk'
     version: '8.x'
 
-- script: dotnet restore LubeAnalyst/LubeAnalyst.csproj
+- script: dotnet restore LubeAnalyst.csproj
   displayName: 'Restore API'
 
-- script: dotnet build LubeAnalyst/LubeAnalyst.csproj --configuration $(buildConfiguration)
+- script: dotnet build LubeAnalyst.csproj --configuration $(buildConfiguration)
   displayName: 'Build API'
 
 - script: dotnet publish LubeAnalyst/LubeAnalyst.csproj -c $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)/api
