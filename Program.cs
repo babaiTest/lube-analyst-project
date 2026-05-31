@@ -86,7 +86,7 @@ app.MapGet("/customers", async (GetAllCustomersHandler handler) =>
     app.UseSwagger();
     app.UseSwaggerUI();
 //}
-
+app.MapSwagger();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
