@@ -1,0 +1,48 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+
+# Install .NET SDK
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '8.x'
+
+# Restore API
+- task: DotNetCoreCLI@2
+  displayName: 'Restore API'
+  inputs:
+    command: 'restore'
+    projects: 'LubeAnalyst.csproj'
+
+# Build API
+- task: DotNetCoreCLI@2
+  displayName: 'Build API'
+  inputs:
+    command: 'build'
+    projects: 'LubeAnalyst.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+
+# Publish API
+- task: DotNetCoreCLI@2
+  displayName: 'Publish API'
+  inputs:
+    command: 'publish'
+    publishWebProjects: false
+    projects: 'LubeAnalyst.csproj'
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/api'
+
+# Deploy to Azure App Service
+- task: AzureWebApp@1
+  displayName: 'Deploy API'
+  inputs:
+    azureSubscription: 'azure-connection'
+    appName: 'lube-analyst-api'   # ⚠️ Must match your App Service name
+    package: '$(Build.ArtifactStagingDirectory)/api'
