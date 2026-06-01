@@ -49,14 +49,14 @@ builder.Services.AddScoped<ICustomerQueryRepository, CustomerQueryRepository>();
 builder.Services.AddScoped<AddCustomerHandler>();
 builder.Services.AddScoped<GetAllCustomersHandler>();
 
-string keyVaultName = builder.Configuration["KeyVaultName"];
-var keyVaultUri = new Uri($"https://{keyVaultName}.vault.azure.net/");
+//string keyVaultName = builder.Configuration["KeyVaultName"];
+//var keyVaultUri = new Uri($"https://{keyVaultName}.vault.azure.net/");
 
 //  Step 2: Add Azure Key Vault as a configuration provider
-builder.Configuration.AddAzureKeyVault(keyVaultUri, new DefaultAzureCredential());
+//builder.Configuration.AddAzureKeyVault(keyVaultUri, new DefaultAzureCredential());
 
 //  Step 3: Read the secret value (Service Bus connection string)
-string serviceBusConnectionString = builder.Configuration["ServiceBusConnectionString"];
+string serviceBusConnectionString = builder.Configuration["ServiceBusConnectionString"] ?? "";
 var apimKey = builder.Configuration["ApimSubscriptionKey"];
 
 // (Optional) register Service Bus client for dependency injection
