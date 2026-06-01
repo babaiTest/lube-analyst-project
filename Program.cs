@@ -15,7 +15,8 @@ var con = builder.Configuration.GetConnectionString("lubeAnalyst");
 try
 {
     using var conn = new SqlConnection(con);
-    conn.Open();
+    //Commented to avoid open DB connection from local database
+    //conn.Open();
     Console.WriteLine(" Connected successfully.");
 }
 catch (Exception ex)
@@ -42,8 +43,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<LabDbContext>(options =>
-    options.UseSqlServer(con));
+
+//Commented to avoid open DB connection from local database
+//builder.Services.AddDbContext<LabDbContext>(options =>
+//    options.UseSqlServer(con));
+
 builder.Services.AddScoped<ICustomerCommandRepository, CustomerCommandRepository>();
 builder.Services.AddScoped<ICustomerQueryRepository, CustomerQueryRepository>();
 builder.Services.AddScoped<AddCustomerHandler>();
