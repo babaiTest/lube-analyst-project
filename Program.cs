@@ -68,8 +68,10 @@ builder.Services.AddSingleton(sp => new ServiceBusClient(serviceBusConnectionStr
 builder.Services.AddSingleton<ApimService>();
 
 var app = builder.Build();
+app.MapGet("/", () => "HELLO AZURE");
 
-
+app.Run();
+/*
 // Command Endpoint (Write)
 app.MapPost("/customers", async (AddCustomerCommand command, AddCustomerHandler handler) =>
 {
@@ -98,3 +100,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+*/
