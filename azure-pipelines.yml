@@ -9,40 +9,50 @@ variables:
 
 steps:
 
-# Install .NET SDK
+# Install .NET
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
     version: '8.x'
 
-# Restore API
+# Restore
 - task: DotNetCoreCLI@2
-  displayName: 'Restore API'
+  displayName: 'Restore'
   inputs:
     command: 'restore'
     projects: 'LubeAnalyst.csproj'
 
-# Build API
+# Build
 - task: DotNetCoreCLI@2
-  displayName: 'Build API'
+  displayName: 'Build'
   inputs:
     command: 'build'
     projects: 'LubeAnalyst.csproj'
     arguments: '--configuration $(buildConfiguration)'
 
-# Publish API
+# Publish
 - task: DotNetCoreCLI@2
-  displayName: 'Publish API'
+  displayName: 'Publish'
   inputs:
     command: 'publish'
     publishWebProjects: false
     projects: 'LubeAnalyst.csproj'
     arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/api'
 
-# Deploy to Azure App Service
+# 🔥 Archive (VERY IMPORTANT)
+- task: ArchiveFiles@2
+  displayName: 'Archive API'
+  inputs:
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/api'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/api.zip'
+    replaceExistingArchive: true
+
+# 🔥 Deploy ZIP
 - task: AzureWebApp@1
   displayName: 'Deploy API'
   inputs:
     azureSubscription: 'azure-connection'
-    appName: 'lube-analyst-api'   # ⚠️ Must match your App Service name
-    package: '$(Build.ArtifactStagingDirectory)/api'
+    appName: 'lube-analyst-api'
+    package: '$(Build.ArtifactStagingDirectory)/api.zip'
