@@ -21,7 +21,7 @@ namespace LubeAnalyst.Controllers
         {
             _handler = handler;
             _serviceBusClient = serviceBusClient;
-            //_configuration = configuration;
+            //_configuration = configuration; Test
             
         }
         [HttpPost("RegisterCustomer")]
