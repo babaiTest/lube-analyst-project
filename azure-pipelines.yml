@@ -6,6 +6,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+  appName: 'lube-analyst-api-dev'
 
 steps:
 
@@ -50,9 +51,23 @@ steps:
     replaceExistingArchive: true
 
 # 🔥 Deploy ZIP
+
+- powershell: |
+    Write-Host "Branch: $(Build.SourceBranchName)"
+
+    if ("$(Build.SourceBranchName)" -eq "main") {
+        Write-Host "##vso[task.setvariable variable=appName]lube-analyst-api"
+    }
+    elseif ("$(Build.SourceBranchName)" -eq "test") {
+        Write-Host "##vso[task.setvariable variable=appName]lube-analyst-api-uat"
+    }
+    else {
+        Write-Host "##vso[task.setvariable variable=appName]lube-analyst-api-dev"
+    }
+  displayName: 'Set Environment'
 - task: AzureWebApp@1
   displayName: 'Deploy API'
   inputs:
     azureSubscription: 'azure-connection'
-    appName: 'lube-analyst-api'
+    appName: $(appName)
     package: '$(Build.ArtifactStagingDirectory)/api.zip'
